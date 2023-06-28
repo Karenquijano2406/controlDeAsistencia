@@ -45,6 +45,12 @@ session_start();
     ");
 
     ?>
+    <div class="text-right mb-2">
+      <a href="fpdf/reporteAsistencia.php" target="_blank" class="btn btn-success"><i class="fas fa-file-pdf"></i>Generar reporte</a>
+    </div>
+    <div class="text-right mb-2">
+      <a href="reporte_asistencia.php" class="btn btn-warning"><i class="fas fa-plus"></i> Más Reportes</a>
+    </div>
 
     <table class="table table-primary table-striped table-bordered col-12"  id="example">
   <thead>

@@ -33,6 +33,10 @@ session_start();
     ?>
 
     <a href="registro_cargo.php" class="btn btn-primary btn-rounded mb-2"><i class="fa-solid fa-plus"></i>&nbsp;Registrar</a>
+    <!-- boton generar reporte -->
+    <div class="text-right mb-2">
+      <a href="fpdf/reporteCargo.php" target="_blank" class="btn btn-success"><i class="fas fa-file-pdf"></i>Generar reporte</a>
+    </div>
     <table class="table table-primary table-striped table-bordered col-12"  id="example">
   <thead>
     <tr>
